@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="methodtest">
+<test name="test">
+<classes>
+<class name="com.AutomationTestNg.Facebook">
+<methods>
+<include name="btest">
+
+</include>
+
+</methods>
+</class>
+<class name="com.AutomationTestNg.Flipkart">
+<exclude name="gtest"></exclude>
+</class>
+</classes>
+
+</test>
+
+</suite>
